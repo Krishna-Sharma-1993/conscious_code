@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Search product",
+    "priority": "High",
+    "steps": [
+      {"action": "goto", "selector": "", "value": "https://example.com"},
+      {"action": "fill", "selector": "#search-box", "value": "laptop"},
+      {"action": "click", "selector": "#search-button"},
+      {"action": "expect_visible", "selector": ".results"}
+    ],
+    "expected_result": "Search results displayed"
+  }
+]
+

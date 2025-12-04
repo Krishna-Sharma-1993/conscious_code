@@ -1,0 +1,6 @@
+#Ignoring python virtual env
+venv/
+testgen_playwright/testgen/
+testgen_pytest/testgen/
+log_anomaly_detector/venv/
+self_healing_pipeline/venv/
